@@ -21,14 +21,13 @@ void sort(int *mas)
 }
 int main()
 {
-setlocale(LC_ALL,"Russian" );
 int size;
 int *arr;
 
 mass(arr,12);
 for (int i=0;i<12;i++)
 {
-	cout << "Aaaaeoa yeaiaio ianneaa " << i+1 << " ";
+	cout << "vvedite znacheniya " << i+1 << " ";
 	cin >> arr[i];
 }
 sort(arr);
